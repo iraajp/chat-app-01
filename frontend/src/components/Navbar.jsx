@@ -32,7 +32,7 @@ const Navbar = () => {
           </div>
 
           <div className="flex items-center gap-2">
-          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3djuAEm8miwAn93JISOb7V?utm_source=generator&theme=0" width="80%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          
             <Link
               to={"https://github.com/iraajp/chat-app-01"}
               className={`
