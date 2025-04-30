@@ -6,16 +6,16 @@ const PREVIEW_MESSAGES = [
   {
     id: 1,
     content:
-      "i forgive you !even though it was a small mistake it hurt me and things are not going to be the same, it will take time   ",
+      "HI!  ",
     isSent: false,
   },
   {
     id: 2,
     content:
-      "i am sorry, and i know this is not going to be the same but take your time  ",
+      "hello,how you doing  ",
     isSent: true,
   },
-  { id: 3, content: "don't leave me , i have no one !!!  ", isSent: true },
+  { id: 3, content: "I am doing fine   ", isSent: true },
 ];
 
 const SettingsPage = () => {
@@ -73,7 +73,7 @@ const SettingsPage = () => {
                       J
                     </div>
                     <div>
-                      <h3 className="font-medium text-sm">SK</h3>
+                      <h3 className="font-medium text-sm">Raaj Patkar</h3>
                       <p className="text-xs text-base-content/70">Online</p>
                     </div>
                   </div>
