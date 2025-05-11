@@ -36,7 +36,7 @@ export const signup = async (req, res) => {
         _id: newUser._id,
         fullName: newUser.fullName,
         email: newUser.email,
-        profilePic: newUser.profilePic,
+        profilePic: "https://res.cloudinary.com/drd28jqxh/image/upload/v1746938650/kxt3ikini4bsxty953wj.png",
       });
     } else {
       res.status(400).json({ message: "Invalid user data" });
