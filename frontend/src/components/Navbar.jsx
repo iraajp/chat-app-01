@@ -23,9 +23,7 @@ const Navbar = () => {
               to="/"
               className="flex items-center gap-2.5 hover:opacity-80 transition-all"
             >
-              <div className="size-9 rounded-lg bg-primary/10 flex items-center justify-center">
-                 <link rel="icon" type="image/png" href="https://res.cloudinary.com/drd28jqxh/image/upload/v1746939562/phl9pymmdoem3azzkrfj.png" />
-              </div>
+              
               <h1 className="text-lg font-bold">soSure</h1>
             </Link>
           </div>
@@ -62,7 +60,7 @@ const Navbar = () => {
 
                 <button className="flex gap-2 items-center" onClick={logout}>
                   <LogOut className="size-5" />
-                  <span className="hidden sm:inline">Logout</span>
+                  <span className="hidden sm:inline"></span>
                 </button>
               </>
             )}
