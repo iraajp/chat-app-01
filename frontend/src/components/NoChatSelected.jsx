@@ -19,7 +19,7 @@ const NoChatSelected = () => {
         {/* Welcome Text */}
         <h2 className="text-2xl font-bold">Welcome to soSure!</h2>
         <p className="text-base-content/60">
-          keep it a secret😉!!
+          Select a conversation to start chatting or create a new one.
         </p>
       </div>
     </div>
